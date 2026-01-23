@@ -34,7 +34,38 @@ export const missions = [
       { title: "Maestrul Limbilor 🌍", reward: "+15 min", penalty: "Penalty Zone 🟠" },
       { title: "Cititorul Suprem 📖", reward: "+10 min", penalty: "XP Freeze ❄️ (No Reward ⚪)" },
       { title: "Focus Mode 🧠", reward: "+10 XP", penalty: "Scratch Damage 🟡" },
-      { title: "Mini-Test Win 🧪🏆", reward: "+10 XP", penalty: "Penalty Zone 🟠" }
+      { title: "Mini-Test Win 🧪🏆", reward: "+10 XP", penalty: "Penalty Zone 🟠" },
+
+      // --- Deblocare acces Roblox / condiții de timp ---
+      { title: "3 Exerciții la Mate 🔓🧮", reward: "Deblocare Roblox: +5 min", penalty: "Access Lock 🔒 (Daily Ban 🔴)", unlock: "Roblox", notes: "Deblocare acces" },
+      { title: "5 Exerciții Perfecte la Mate 🏆🧮", reward: "Deblocare Roblox: +20 min", penalty: "Access Lock 🔒 (Daily Ban 🔴)", unlock: "Roblox", notes: "Deblocare acces" },
+      { title: "10 Exerciții Ușoare (Culegere Clasa 3/4) 📘", reward: "Deblocare Roblox: +5 min", penalty: "Access Lock 🔒 (Daily Ban 🔴)", unlock: "Roblox", notes: "Deblocare acces" },
+      { title: "20 Exerciții Ușoare Perfecte (Culegere 3/4) 📘✨", reward: "Deblocare Roblox: +20 min", penalty: "Access Lock 🔒 (Daily Ban 🔴)", unlock: "Roblox", notes: "Deblocare acces" },
+      { title: "10 Pagini (Caietul Elevului 3/4) 📗🖊️", reward: "Deblocare Roblox: +2h", penalty: "Access Lock 🔒 (Daily Ban 🔴)", unlock: "Roblox", notes: "Deblocare acces" },
+      { title: "1 Oră Lecție Învățată ⏳🧠", reward: "Deblocare Roblox: +20 min", penalty: "Access Lock 🔒 (Daily Ban 🔴)", unlock: "Roblox", notes: "Deblocare acces" },
+
+      { title: "10 Cuvinte Încercuite + 10 Sublin. + Traduse 🔍📝", reward: "+5 min", penalty: "No Reward ⚪ (timp neblocat)" },
+      { title: "10 Cuvinte Noi + Propoziție cu Fiecare 🧠🗣️", reward: "+5 min", penalty: "Access Lock 🔒 (No Reward ⚪)", notes: "Condiție deblocare timp" },
+      { title: "Exercițiu de Completat (Limbă Străină) 🧩🌍", reward: "+10 min", penalty: "No Reward ⚪ (timp neblocat)" },
+
+      { title: "Conjugă un Verb (Spaniolă) în 3 Timpuri 🇪🇸⏱️", reward: "+5 min", penalty: "No Reward ⚪" },
+      { title: "Conjugă un Verb (Spaniolă) în Toate Timpurile 🇪🇸🔥", reward: "+20 min", penalty: "Penalty Zone 🟠 (neatenție/încercare superficială)" },
+
+      { title: "Lecție Gramatică + Exercițiu (Limbă Străină) 📚✅", reward: "+15 min", penalty: "No Reward ⚪" },
+      { title: "20 Cuvinte dintr-un Desen Animat 🎬🧠", reward: "+5 min", penalty: "No Reward ⚪" },
+      { title: "50 Cuvinte dintr-un Desen Animat 🎬🏆", reward: "+15 min", penalty: "No Reward ⚪" },
+
+      { title: "Scris Caligrafic: Text 100 Cuvinte ✍️📄", reward: "+5 min", penalty: "Scratch Damage 🟡 (grabă/neglijență)" },
+      { title: "Tradus Text (Limbă Străină) 🌍📝", reward: "+10 min", penalty: "No Reward ⚪" },
+      { title: "Exercițiu Gramatică (Română) 🇷🇴📘", reward: "+10 min", penalty: "No Reward ⚪" },
+
+      // --- Misiuni obligatorii (neexecutare = oprire acces) ---
+      { title: "Mimo Daily Lesson (Obligatoriu) 🧠📱", reward: "Condiție deblocare: acces ON ✅", penalty: "Access Lock 🔒 (Daily Ban 🔴)", mandatory: true, notes: "Misiune obligatorie" },
+      { title: "Duolingo Spanish (Obligatoriu) 🦉🇪🇸", reward: "Condiție deblocare: acces ON ✅", penalty: "Access Lock 🔒 (Daily Ban 🔴)", mandatory: true, notes: "Misiune obligatorie" },
+
+      { title: "Pregătire Program Ziua Următoare (Obligatoriu) 📅✅", reward: "Condiție deblocare: acces ON ✅", penalty: "Access Lock 🔒 (Daily Ban 🔴)", mandatory: true, notes: "Misiune obligatorie" },
+      { title: "Pregătire Ghiozdan Ziua Următoare (Obligatoriu) 🎒✅", reward: "Condiție deblocare: acces ON ✅", penalty: "Access Lock 🔒 (Daily Ban 🔴)", mandatory: true, notes: "Misiune obligatorie" },
+      { title: "Pregătire pe Fiecare Materie (Ziua Următoare) 📚🧾", reward: "Condiție deblocare: acces ON ✅", penalty: "Access Lock 🔒 (Daily Ban 🔴)", mandatory: true, notes: "Misiune obligatorie" }
     ]
   },
 
